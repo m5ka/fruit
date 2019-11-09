@@ -32,7 +32,7 @@ int setup_screen() {
 int main() {
     if(setup_screen())
         return -1;
-    sleep(1);
+    loop();
     endwin();
     return 0;
 }
